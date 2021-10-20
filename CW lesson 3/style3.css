@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cont{
+    margin: 0 auto;
+    width: 500px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+}
+.centr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.margin{
+    margin: 5px;
+    border-radius: 2px;
+}
+.box1{
+    width: 50%;
+    background-color: dodgerblue;
+    height: 300px;
+}
+#content{
+    width: 98%;
+    height: 150px;
+    background-color: dodgerblue;
+}
+#wraper{
+    display: flex;
+}
+.box2{
+    width: 33.33%;
+    height: 150px;
+    background-color: darkblue;
+}
