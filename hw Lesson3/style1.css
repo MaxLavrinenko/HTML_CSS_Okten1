@@ -1,0 +1,36 @@
+#cont{
+    width: 1000px;
+    margin: 0 auto;
+    column-gap: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.centr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a {
+    width: 100%;
+    height: 300px;
+    background-color: darkgray;  
+}
+.wrap {
+    display: flex;
+    margin-top: 5px;
+    column-gap: 5px;
+}
+
+.b{
+    width: 70%;
+    height: 300px;
+    background-color: darkgray;
+}
+
+.c  {
+    width: 30%;
+    height: 300px;
+    background-color: darkgray;
+}
