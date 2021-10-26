@@ -178,3 +178,44 @@ border-radius: 8px;
     border-radius:50%;
     margin-left: 3px;
 }
+.reviews__wrap{
+    width: 100%;
+    margin: 40px;
+    display: flex;
+}
+.reviews__left{
+    padding: 20px;
+    width: 50%;
+}
+.reviews__text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.reviews__button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+}.reviews__right{
+    padding: 20px;
+    width: 50%;
+ }
+ .footer__wrap{
+     row-gap: 20px;
+     flex-direction: column;
+     width: 100%;
+     padding: 20px;
+ }
+ .footer__menu{
+     column-gap: 5px;
+ }
+ .footer__box{
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+ }
+ .footer__line{
+     width: 200px;
+     height: 5px;
+ }
