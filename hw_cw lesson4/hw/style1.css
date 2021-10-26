@@ -1,0 +1,36 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    column-gap: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.text_centr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 100%; 
+}
+.main {
+    display: flex;
+    margin-top: 5px;
+    column-gap: 5px;
+}
+
+.main__content {
+    width: 70%;
+}
+
+.main__navigation  {
+    width: 30%;
+}
+.height{
+    height: 300px;
+}
+.bgcolor{
+    background-color: darkgray;
+}

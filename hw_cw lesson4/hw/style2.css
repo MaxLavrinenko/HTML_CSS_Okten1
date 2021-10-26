@@ -1,0 +1,41 @@
+#conteiner{
+    margin: 0 auto;
+    width: 1000px;
+}
+.text_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    background-color: gold;
+    width: 80%;
+    height:200px ;
+    margin-bottom: 5px;
+    
+}
+.main_content {
+    display: flex;
+    height: 600px;
+    width: 80%;
+    column-gap: 5px;
+}
+#main_content__menu {
+    background-color: hotpink;
+    width: 30%;
+    
+}
+.main_content__box_content{
+    width: 70%;
+}
+.box_content__post{
+    background-color: lightseagreen;
+    height: 49%;
+    margin-bottom: 5px;
+}
+#footer{
+    background-color: rgb(235, 219, 129);
+    width: 80%;
+    height:200px ;
+    margin-top: 5px;
+}
