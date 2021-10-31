@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 890px){
     .header__menu{
         display: none;
     }
@@ -29,5 +29,13 @@
     }
     .header__title p::before, .header__title p::after{
         display: none;
+    }
+    .header__intro{
+        display: block;
+        margin-top: 170px;
+    }
+    .header__box{
+        margin-left: 15px;
+        margin-top: 15px;
     }
 }
